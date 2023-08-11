@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Preahvihear&display=swap');
+body {
+	background: #FFF4E1;
+	
+}
+
+.encabezado{
+	width: 70%;
+	height: 70%;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+	transition: 1s;
+}
+header{
+	background: src('./img/foto1.jpg');
+}
+nav a {
+	list-style: none;
+	color: #ab43c8;
+
+}
+a:link, a:visited, a:active {
+            text-decoration:none;
+        }
+
+.img {
+	width: 100%;
+}
+.oscuro p{
+	color: #26102b;
+	font-family: 'Preahvihear', sans-serif;
+}
+.margentop{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.oscuro h3{
+	color: #c971e0;
+	font-family: 'Pacifico', cursive;
+}
+.fondo{
+	background-image: url('./img/foto4.jpg');
+	background-size: 100%;
+	color: white;
+	padding: 3em;
+}
+.fondo h3 {
+	font-family: 'Pacifico', cursive;
+}
+.margenlateral{
+	margin: 0 10%;
+}
+.fuente{
+	color: #c971e0;
+	font-family: 'Pacifico', cursive;
+}
+.fuente3{
+	font-family: 'Pacifico', cursive;
+	color: #26102b;
+}
+.fuente2{
+	color: #26102b;
+	
+}
+.borde{
+	border: 1px solid black; padding: 1em 0;
+}
+.fondo2{
+	background-image: url('./img/foto2.jpg');
+	background-size: 100%;
+	color: white;
+	padding: 3em;
+	font-family: 'Pacifico', cursive;
+}
+.whats{
+	width: 80px;
+}
+h1{
+	font-size: 80px;
+}
