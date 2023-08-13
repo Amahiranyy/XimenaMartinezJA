@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@200&display=swap');
+
+nav {
+	font-family: 'Pacifico', cursive;
+	font-family: 'Roboto Slab', serif;
+}
+.logo{
+	width: 100%;
+}
+.imagenes img {
+	border-radius: 50%;
+	border:  1px solid blue;
+	padding: 2px;
+}
+.imagenes h1 {
+	color: #024A86;
+}
+nav ul li{
+	display: inline-block;
+	padding: 2em 2em 0;
+}
+nav ul a {
+	list-style: none;
+	color: #024A86;
+
+}
+a:link, a:visited, a:active {
+            text-decoration:none;
+        }
+
+footer {
+	background-color: #024A86;
+	padding: 2em;
+	color: white;
+}
